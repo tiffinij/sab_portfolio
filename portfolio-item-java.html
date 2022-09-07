@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+              <meta charset = "UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+              <title>Tiffini's Portfolio Website</title>
+              <!--1st lnk tries to make sure the page looks the same in all browsers -->
+              <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+              <!--2nd is for social media icon links... -->
+              <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" />
+
+              <script src="https://kit.fontawesome.com/954af532e0.js" crossorigin="anonymous"></script>
+              <!-- Font Links -->
+              <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+              <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
+
+              <!--link to CSS styles -->
+              <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        </head>
+        <body>
+          <header> <!-- HEADER  -->
+              <div class="logo">
+                  <h3 id="tiny-logo">[ <strong>hOvOt</strong> ]</h3> <!-- <img src="img/tinyOwl.png" alt="" id="logo"> -->
+              </div>
+              <button class="nav-toggle" aria-label="toggle navigation">
+                  <span class="hamburger"></span>
+              </button>
+              <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#exp" class="nav__link">My Experience</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+              </nav>
+          </header> <!-- END OF HEADER  -->
+            <!-- END OF HEADER  -->
+
+            <!--
+            INTRODUCTION SECTION
+            -->
+            <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                 Vending Machine
+                </h1>
+                <p class="section__subtitle section__subtitle--intro" >Spring MVC Web App <!-- Ceritfied or Developer  --> </p>
+                <i class="devicon-java-plain intro__img" id="intro-photo"></i>
+            </section>
+
+            <div class="portfolio-item-individual">
+                <p>
+                    This application models the interface and processes of a vending machine.
+                    Users can "insert" money and select an item for purchase. The system will
+                    deplete the purchased item's inventory quantity and calculate and disburse
+                    change owed, if any. Users attempting to purchase an out of stock item
+                    will be greeted with a message indicating as such, and will be prompted to
+                    "insert" a specified amount of money if the item they attempt to purchase
+                    is priced at an amount higher than the value of the denomination provided.
+                </p>
+                <img id="vending-gif" src="img/VendingMachineDemo.gif" alt="gif of VendingMachineDemo">
+                <p>
+                    Technologies used: MySQL, HTML, CSS, JSPs using EL and JSTL, servlets,
+                    Java, Spring MVC, TDD using JUnit.
+                </p>
+                <!-- IDEA: FEEL FREE TO ADD AS MANY TEXT AND PICTURES BY PROJECT -->
+
+            </div>
+
+            <!-- FOOTER -->
+            <footer class="footer">
+
+                <ul class="social-list">
+                    <li class="social-list__item"><a class="social-list__link"
+                    href="mailto:tiffinij@gmail.com"><i class="far fa-envelope"></i></a></li>
+
+                    <li class="social-list__item"> <a class="social-list__link"
+                    href="https://github.com"><i class="fab fa-github"></i></a></li>
+
+                    <li class="social-list__item"> <a class="social-list__link"
+                    href="https://linkedin.com/tiffinij21"><i class="fab fa-linkedin"></i></a></li>
+
+
+                </ul>
+
+            </footer>
+
+            <script src="js/index.js"></script> <!-- brings in js from index.js -->
+        </body>
+</html>

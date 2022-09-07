@@ -1,0 +1,57 @@
+html {
+    font-size: 20px;
+    background: #F8F8FF;
+}
+
+body {
+
+}
+
+header {
+    text-align: center;
+    /*font-family: 'Brush Script MT', cursive;*/
+}
+
+
+#image {
+    max-width: 90%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+#img-caption {
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+
+#img-div {
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.container {
+    margin: 30px 20% 30px 20%;
+    display: grid;
+    grid-template-columns: 50%
+    justify-items: center;
+}
+
+.tribute-item-title {
+    background: #CCFFFF;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: inherit;
+
+}
+
+#read-more-section {
+    padding: 1rem 1rem 1rem 1rem;
+    background: #CCFFFF;
+    color: darkblue;
+    text-align: center;
+    font-size: 1.2rem;
+}

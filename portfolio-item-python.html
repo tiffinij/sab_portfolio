@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+              <meta charset = "UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+              <title>Tiffini's Portfolio Website</title>
+              <!--1st lnk tries to make sure the page looks the same in all browsers -->
+              <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+              <!--2nd is for social media icon links... -->
+              <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" />
+
+              <script src="https://kit.fontawesome.com/954af532e0.js" crossorigin="anonymous"></script>
+              <!-- Font Links -->
+              <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+
+              <!--link to CSS styles -->
+              <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        </head>
+        <body>
+            <header> <!-- HEADER  -->
+                <div class="logo">
+                    <h3>[ <strong>hOvOt</strong> ]</h3> <!-- <img src="img/tinyOwl.png" alt="" id="logo"> -->
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                  <ul class="nav__list">
+                      <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                      <li class="nav__item"><a href="index.html#exp" class="nav__link">My Experience</a></li>
+                      <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                      <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                  </ul>
+                </nav>
+            </header>
+            <!-- END OF HEADER  -->
+
+            <!--
+            INTRODUCTION SECTION
+            -->
+            <section class="intro" >
+                <h1 class="section__title section__title--intro">
+                 The title <strong>of my project</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro" > A short subtitle<!-- Ceritfied or Developer  --> </p>
+                <img src="img/tinyOwl.png" alt="" class="intro__img" id="intro-photo">
+            </section>
+
+            <div class="portfolio-item-individual">
+                <p>
+                    Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo
+                    molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?
+                </p>
+                <img src="img/VendingMachineDemo.gif" alt="gif of VendingMachineDemo">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et
+                    amet tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?
+                </p>
+                <!-- IDEA: FEEL FREE TO ADD AS MANY TEXT AND PICTURES BY PROJECT -->
+                <p>
+                    Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae
+                    eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?
+                </p>
+            </div>
+
+            <!-- FOOTER -->
+            <footer class="footer">
+
+                <ul class="social-list">
+                    <li class="social-list__item"><a class="social-list__link"
+                    href="mailto:tiffinij@gmail.com"><i class="far fa-envelope"></i></a></li>
+
+                    <li class="social-list__item"> <a class="social-list__link"
+                    href="https://github.com"><i class="fab fa-github"></i></a></li>
+
+                    <li class="social-list__item"> <a class="social-list__link"
+                    href="https://linkedin.com/tiffinij21"><i class="fab fa-linkedin"></i></a></li>
+
+
+                </ul>
+
+            </footer>
+
+            <script src="js/index.js"></script> <!-- brings in js from index.js -->
+        </body>
+</html>
