@@ -19,10 +19,10 @@
         --fw-bold: 900;
 
 /* clr = color */
-        --clr-light: #fff;
-        --clr-dark: #262730; /* #303030 */
-        --clr-accent: #F5D547; /* currently "yellow" */
-        --clr-accent2: #1F65D6; /* currently "blue" */
+        --clr-light: rgb(238, 236, 224); /* currently "ivory" */
+        --clr-dark: rgb(58, 56, 57); /* #303030 */
+        --clr-accent: rgb(62, 91, 61); /* currently "green" */
+        --clr-accent2: rgb(156, 178, 149); /* currently "light green" */
 
 /* fs = font size */
         --fs-h1: 2.95rem; /* rem allows font to scale size based on user browser settings */
@@ -150,6 +150,7 @@ h3{ font-size: var(--fs-h3) }
 
     margin: 0;
     font-size: var(--fs-h3);
+    color: rgb(238, 236, 224);
 }
 
 .section__subtitle--intro,
@@ -256,7 +257,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-accent2);
+    background: var(--clr-accent);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -275,7 +276,10 @@ header {
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
 
-
+#ready-to-work{
+    font-size: 0.75em !important;
+    font-style: italic;
+}
 
 /* INTRO SECTION */
 .intro {
@@ -284,6 +288,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs); /*creates shadow around intro__img*/
+    border: solid 2px black;
 }
 
 .section__subtitle--intro {
@@ -329,7 +334,7 @@ header {
 
 .my-exp {
     background-color: var(--clr-dark);
-    background-image: url(../img/ThisIsIt_lg.jpg);
+    background-image: url(../img/taylor-vick-M5tzZtFCOfs-unsplash.jpg);
     background-size: cover; /* makes sure img never repeats itself */
     background-blend-mode: multiply; /* Darkens the background image so text is viewable */
     color: var(--clr-light);
@@ -359,6 +364,7 @@ header {
 
 
 .exp {
+    min-width: 300px;
     max-width: 500px;
     margin: 0 auto;
 }
