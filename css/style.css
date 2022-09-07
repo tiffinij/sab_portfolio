@@ -20,7 +20,7 @@
 
 /* clr = color */
         --clr-light: rgb(238, 236, 224); /* currently "ivory" */
-        --clr-dark: rgb(58, 56, 57); /* #303030 */
+        --clr-dark: rgb(58, 56, 57); /*currently charcoal */
         --clr-accent: rgb(62, 91, 61); /* currently "green" */
         --clr-accent2: rgb(156, 178, 149); /* currently "light green" */
 
@@ -76,6 +76,14 @@ img {
     display: block;
     max-width: 100%;
 
+}
+
+a:visited {
+    color: var(--clr-dark);
+}
+
+a:hover {
+    color: var(--clr-accent);
 }
 
 
